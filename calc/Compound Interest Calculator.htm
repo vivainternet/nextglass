@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<TITLE>Compound Interest Calculator</TITLE>
+<META NAME="keywords" CONTENT="compound interest,online,calculators,maths,mathematics,addition,multiplication,subtraction,division,percentages,domestic,scientific,financial,statistics,working,out,calculations,calculating,work out,">
+<META NAME="description" CONTENT="Compound Interest Calculator">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<LINK REL="stylesheet" TYPE="text/css" HREF="calculators.css">
+<script src="navcalculator.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+function compound() {
+var initial = Number(document.interest.initial.value);
+var rate = Number(document.interest.rate.value);
+var years = Number(document.interest.years.value);
+ document.interest.amount.value = Math.round(initial*(Math.pow((1+rate/100),years))*100)/100;
+ document.interest.interest.value = Math.round((initial*(Math.pow((1+rate/100),years))-initial)*100)/100
+}
+
+function compound2() {
+var initial2 = Number(document.interest2.initial2.value);
+var rate2 = Number(document.interest2.rate2.value);
+var years2 = Number(document.interest2.years2.value);
+ document.interest2.amount2.value = Math.round(initial2*(Math.pow((1+rate2/100),years2))*100)/100;
+ document.interest2.interest2.value = Math.round((initial2*(Math.pow((1+rate2/100),years2))-initial2)*100)/100
+}
+//  End -->
+</script>
+</HEAD>
+<body>
+<table class="pagetable" cellspacing="0" cellpadding="0" align="center">
+	<tr class="leftnav">
+    	<td class="left" width="20%">
+					<FORM NAME="calculator">
+						<TABLE CELLSPACING="2" CELLPADDING="5" border="1" bordercolor="#BECFF0" bgcolor="#7BA4CD" width="100%">
+						<tr>
+							<td align="center">
+								<INPUT TYPE="text" name="input" size="17" maxlength="30" align="center"><br>
+								<INPUT TYPE="button" value="  7  " onClick="num(7)">
+								<INPUT TYPE="button" value="  8  " onClick="num(8)">
+								<INPUT TYPE="button" value="  9  " onClick="num(9)">
+								<INPUT TYPE="button" value="  +  " onClick="plus()">
+							<br>
+								<INPUT TYPE="button" value="  4  " onClick="num(4)">
+								<INPUT TYPE="button" value="  5  " onClick="num(5)">
+								<INPUT TYPE="button" value="  6  " onClick="num(6)">
+								<INPUT TYPE="button" value="  -   " onClick="minus()">
+							<br>
+								<INPUT TYPE="button" value="  1  " onClick="num(1)">
+								<INPUT TYPE="button" value="  2  " onClick="num(2)">
+								<INPUT TYPE="button" value="  3  " onClick="num(3)">
+								<INPUT TYPE="button" value="  x  " onClick="mult()">
+							<br>
+								<INPUT TYPE="button" value="  0  " onClick="num(0)">
+								<INPUT TYPE="button" value="  .   " onClick="decimal()">
+								<INPUT TYPE="button" value="+/- " onClick="plus_or_minus()">
+								<INPUT TYPE="button" value="  /   " onClick="div()">
+							<br>
+								<INPUT TYPE="button" value=" Clear " onClick="document.calculator.input.value = ''; ">
+								<INPUT TYPE="button" value="    =    " onClick="calculate()"><br><br></td>
+							</td>
+						</tr>
+					</form>
+					<tr><td class="button"><div class="leftnavhead">Index of Calculators</div></td></tr>
+					<tr><td class="button"><div><a href="../functions/mathsfunctions.php">Maths Functions</a></div></td></tr>
+					<tr><td class="button"></td></tr>
+					<tr><td class="button"><div><a href="../area/">Area Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../betting/">Betting Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../business/">Business Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../conversion/">Conversion Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../diy/">DIY Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../interest/">Interest Calculators</a></div></td></tr>
+					<tr><td class="button"><div><a href="../volumetric/">Volumetric Calculators</a></div></td></tr>
+				</table>
+			</td>
+			
+<td class="main" valign="top">
+				<div align="center"><a href="../index.php"><img src="../images/calculator-title.gif" alt="A collection of functional online calculators for use in every day domestic and commercial use." border="0"></a>
+					<h1 class="header">A collection of functional online calculators for use in every day domestic and commercial use.</h1>
+					<hr></hr>				<h2>Compound Interest Calculators</h2>
+<br><br>
+
+<table width="80%">
+	<tr>
+		<td>
+<form name="interest">
+<TABLE BORDER=2 BGCOLOR=#9FC07A CELLPADDING=2 WIDTH= 100% align="left">
+	<tr>
+		<td colspan="2" align="center"><b>Compound Interest on Savings</b>
+		</td>
+	</tr>
+			<TR>
+				<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Initial Deposit</font></TD>
+				<TD> 
+				    <INPUT NAME="initial" VALUE="" SIZE="10" MAXLENGTH="10" onChange="compound();">
+		    	</TD>
+			</TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Annual Interest Rate</font>
+				</TD>
+		      	<TD> 
+		        	<INPUT TYPE="TEXT" NAME="rate" VALUE="" SIZE="5" MAXLENGTH="6" onChange="compound();">
+				</TD>
+		    </TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Number of Years</font>
+				</TD>
+		    	<TD> 
+		        	<INPUT TYPE="TEXT" NAME="years" VALUE="" SIZE="5" MAXLENGTH="6" onChange="compound();">
+		    	</TD>
+		    </TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Sum at End of Term</font>
+				</TD>
+				<TD> 
+		        	<INPUT TYPE="TEXT" NAME="amount" VALUE="" SIZE="10">
+				</TD>
+			</TR>
+			<TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Interest Received</font>
+				</TD>
+		    	<TD> 
+		        <INPUT TYPE="TEXT" NAME="interest" VALUE="" SIZE="10">
+				</TD>
+		    </TR>
+		    <TR>
+				<TD> 
+		        </TD>
+				<TD>
+		        	<INPUT TYPE="RESET" NAME="clear" VALUE="Clear">
+		      </TD>
+		    </TR>
+		  </TABLE>
+		</FORM>
+		</td>
+		<td width="10%">
+		</td>
+		<td>
+		<form name="interest2">
+<TABLE BORDER=2 BGCOLOR=#9FC07A CELLPADDING=2 WIDTH= 100% align="left">
+	<tr>
+		<td colspan="2" align="center"><b>Compound Interest on a Loan</b>
+		</td>
+	</tr>
+			<TR>
+				<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Amount Borrowed</font></TD>
+				<TD> 
+				    <INPUT NAME="initial2" VALUE="" SIZE="10" MAXLENGTH="10" onChange="compound2();">
+		    	</TD>
+			</TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Annual Interest Rate</font>
+				</TD>
+		      	<TD> 
+		        	<INPUT TYPE="TEXT" NAME="rate2" VALUE="" SIZE="5" MAXLENGTH="6" onChange="compound2();">
+				</TD>
+		    </TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Length of loan (Years)</font>
+				</TD>
+		    	<TD> 
+		        	<INPUT TYPE="TEXT" NAME="years2" VALUE="" SIZE="5" MAXLENGTH="6" onChange="compound2();">
+		    	</TD>
+		    </TR>
+		    <TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Total amount payable</font>
+				</TD>
+				<TD> 
+		        	<INPUT TYPE="TEXT" NAME="amount2" VALUE="" SIZE="10">
+				</TD>
+			</TR>
+			<TR>
+		    	<TD ALIGN="RIGHT"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Interest Repayable</font>
+				</TD>
+		    	<TD> 
+		        <INPUT TYPE="TEXT" NAME="interest2" VALUE="" SIZE="10">
+				</TD>
+		    </TR>
+		    <TR>
+				<TD> 
+		        </TD>
+				<TD>
+		        	<INPUT TYPE="RESET" NAME="clear" VALUE="Clear">
+		      </TD>
+		    </TR>
+		  </TABLE>
+		</FORM>
+		</td>
+	</tr>
+</table>
+<br><br><br><br>			
+<h3>Index of Interest Calculators</h3>					
+<ul>
+	<h4 class="small"><a href="compoundinterest.php">Compound Interest Calculators</a></h4><br>
+	<h4 class="small"><a href="loanrepayment.php">Loan Repayment Calculator</a></h4><br>
+</ul>					
+<br><br><br>
+				<div class="smallest">
+				<b>Disclaimer:</b><br>
+				Use of the calculators within this website is free. Whilst every effort has been made to ensure the accuracy of the calculators published within this website, you choose to use them and rely on any results at your own risk. We will not under any circumstances accept responsibility or liability for any losses that may arise from a decision that you may make as aresult of using these calculators. Similarly, we will not be requesting a share of any profits you may make as a result of using the calculators.
+				</div>
+			</td>
+	</tr>
+</table>
+</body>
+</html>	

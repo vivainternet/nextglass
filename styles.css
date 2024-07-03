@@ -1,0 +1,190 @@
+/* CSS Document */
+body {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+}
+.hand { cursor: hand; }
+.inputBold { text-align: right;	padding-right: 6px;	font-weight: bold; }
+
+.buscarLegend{
+	color: #999999;
+}
+.CuotasImpagasOn {
+	color: #000000;
+	border: 2px solid #99CCFF;
+	background-color: #99CCFF;
+	font-weight: bold;
+}
+.inputBuscar{
+	font-size: 11px;
+	height: 19px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border: 1px solid #CCCCCC;
+}
+.inputBuscarID{
+	font-size: 11px;
+	height: 19px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 35px;
+	border: 1px solid #CCCCCC;
+}
+
+.inputIngresoCuota {
+	text-align: right;
+	padding-right: 6px;
+	height: 19px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.inputTextoBold {
+	font-weight: bold;
+	padding-left: 10px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.inputTextoSinBorde {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.inputTextoSinBordeBold {
+	font-weight: bold;
+	padding-left: 10px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.negrita {
+	font-weight: bold;
+}
+.norepeat {
+	background-repeat: repeat-x;
+}
+td {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.tdBordeGrisInf {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+.tdBordeGrisClaroInf {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #F5F5F5;
+}
+.tdBordeCelesteInf {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #53A9FF;
+	background-color: #99CCFF;
+}
+.tdBordeCelesteInfBG {
+	background-image: url(images/bg_tbar.jpg);
+	background-repeat: repeat-x;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.tdBordeGrisIzq {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+}
+
+.textazul {
+	color: #195089;
+	font-weight:bold;
+}
+
+.MenuCuentaTdInf {
+	border-left-width: 1;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-right-width: 1;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	height: 30px;
+
+}
+.MenuCuentaOn {
+	border:1px;
+	border-style:solid;
+	border-color:#CCCCCC;
+	border-bottom:0px;
+	font-weight: bold;
+	text-align: center;
+}
+.MenuCuentaOff{
+	border:1px;
+	border-style:solid;
+	border-color:#CCCCCC;
+	background-color:#F5F5F5;
+	font-weight: bold;
+	text-align: center;
+}
+.MenuCuentaSpacer{	
+	border-bottom-width: 1px;	border-bottom-style: solid;	border-bottom-color: #CCCCCC; 
+}
+#modificar, #save, #Submit, #si, #btnAlta, #modificar {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #3D72A4;
+	border-color: #195089;
+	border-style:solid;
+	border-width:1px;
+}
+#borraremp, #borrarop, #Baja, #btnBajaSi, #btnBaja {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #FF0000;
+	border-color: #990000;
+	border-style:solid;
+	border-width:1px;
+}
+.buttonReset {
+	CLEAR: both;
+	BORDER: #f06161 1px solid;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	BACKGROUND: #B60505 url(images/fnd_button_rojo.jpg) repeat-x 50% top;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	cursor: hand;
+}
+.buttonGrabar {
+	CLEAR: both;
+	BORDER: #0C406F 1px solid;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	TEXT-DECORATION: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	cursor: hand;
+	background: #0C406F url(images/fnd_button_azul.jpg) repeat-x 50% top;
+}
+

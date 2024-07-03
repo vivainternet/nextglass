@@ -1,0 +1,91 @@
+@charset "iso-8859-1";
+/* Creation date: 12/04/2002 */
+body {
+	background-color: #8FBEE8;
+	font-size: 8px;
+	font-family: arial, helvetica;
+	color: navy;
+	margin: 0px;
+}
+h1.header {
+	font-size: 10px;
+	margin: 0px;
+}
+table.pagetable {
+	background-color: white;
+	margin: 2px;
+	border: 1px solid #000080;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+tr.leftnav{
+	background-color: #FFFFFF; 
+	vertical-align: top;
+}
+td.main {
+	text-align: left; 
+	vertical-align: top; 
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding-left: 3px; 
+	padding-right: 7px; 
+}
+td.button {
+	background: url(images/button.gif);
+}
+td.button1 {
+	background: url(images/button1.gif); 
+	padding-left: 120px;
+}
+td.left table tr td{
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 5px; 
+	height: 26px;
+	font-size: 8pt;
+	color: #006699;
+	font-weight: bold;
+	
+}
+td.left table tr td a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #5255BA;
+	font-weight: bold;
+	text-decoration: none;
+}
+td.left table tr td a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #5255BA;
+	font-weight: bold;
+	text-decoration: none;
+}
+td.left table tr td a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #5255BA;
+	font-weight: bold;
+	text-decoration: none;
+}
+div.leftnavhead {
+	text-align: left;
+	color: black;
+	font-size: 12px;
+}
+div.smallest {
+	text-align: left;
+	color: black;
+	font-size: 9px;
+}
+h4.small {
+	font-size: 13px;
+	margin: 0px;
+	color: #FF0000;
+}
+td.calculator {
+	vertical-align: center; 
+	background-color: #A0D6A0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
